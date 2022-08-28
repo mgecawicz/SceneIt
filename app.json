@@ -2,6 +2,7 @@
   "expo": {
     "name": "sceneit",
     "slug": "sceneit",
+    "owner": "mgwicz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,7 +19,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mgwicz.sceneit"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +30,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "64f31754-aaed-4926-8274-ca9ad89102ad"
+      }
     }
   }
 }
